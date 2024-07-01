@@ -19,3 +19,17 @@ function decrease(){
 };
 
 export {add, reset, decrease}
+
+
+/* PARTE II
+function decrease() {
+    let numberElement = document.getElementById("number");
+    let currentValue = parseInt(numberElement.innerText);
+
+    if (currentValue > 0) {
+        numberElement.innerText = currentValue - 1;
+    } else {
+
+    }
+}
+ */
